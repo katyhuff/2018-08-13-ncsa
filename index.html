@@ -8,7 +8,7 @@
 
                 <meta name="description" content="
                 A discussion of best practices in scientific computing.
-                This was presented to the NESLS program at ORNL in 2017.
+                This was presented to the Blue Waters program at NCSA in 2017.
                 ">
 		<meta name="author" content="Kathryn Huff">
 
@@ -47,9 +47,9 @@
 			<div class="slides">
                                 <section>
                                         <h1>Best Practices and Resources</h1>
-                                        <h2>for Computational Nuclear Engineering</h2>
+                                        <h2>for Scientific Computing</h2>
                                         <br/>
-                                        <h3>Kathryn Huff. July 6, 2017</h3>
+                                        <h3>Kathryn Huff. September 20, 2017</h3>
                                 </section>
                                         <section>
                          <span class="fragment fade-out">
@@ -78,10 +78,10 @@
                                                 </span>
                                                         <span class="fragment fade-out">
                                                         <a
-                                                          href="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/UIUC_seal.svg/1024px-UIUC_seal.svg.png"
+                                                          href="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/University_of_Illinois_seal.svg/480px-University_of_Illinois_seal.svg.png"
                                                           class="image"><img
                                                           height="100"
-                                                          src="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/UIUC_seal.svg/1024px-UIUC_seal.svg.png"
+                                                          src="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/University_of_Illinois_seal.svg/480px-University_of_Illinois_seal.svg.png"
                                                           alt="illinois"></a>
 							</span>
                                                         <span class="fragment fade-out">
@@ -193,73 +193,6 @@
                                         </section>
                                 </section>
 
-                                <section>
-                                        <section>
-                                                <a href="http://rationalwiki.org/w/images/thumb/0/0e/Fission.svg/800px-Fission.svg.png"
-                                                  class="image"><img
-                                                  src="http://rationalwiki.org/w/images/thumb/0/0e/Fission.svg/800px-Fission.svg.png"
-                                                  alt="Fission."></a>
-                                                <p
-                                                class="fragment">\[\sigma(E,\vec{r},\hat{\Omega},T,t,x,i)\]<p>
-                                        </section>
-                                        <section>
-                                                <a href="http://wwwndc.jaea.go.jp/j40fig/jpeg/u235_f1.jpg"
-                                                  class="image"><img
-                                                  src="http://wwwndc.jaea.go.jp/j40fig/jpeg/u235_f1.jpg"
-                                                  alt="Resonances"></a>
-                                        </section>
-                                        <section>
-                                                <a href="http://rationalwiki.org/w/images/thumb/1/1f/Chainreaction.svg/715px-Chainreaction.svg.png"
-                                                  class="image"><img
-                                                  src="http://rationalwiki.org/w/images/thumb/1/1f/Chainreaction.svg/715px-Chainreaction.svg.png"
-                                                  alt="Chain reaction"></a>
-                                        </section>
-                                        <section>
-                                                <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/ThermalFissionYield.svg/800px-ThermalFissionYield.svg.png"
-                                                  class="image"><img
-                                                  src="
-                                                  http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/ThermalFissionYield.svg/800px-ThermalFissionYield.svg.png
-                                                  "
-                                                  alt="Fission yield"height=400></a>
-                                        </section>
-                                        <section>
-                                                <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Isotopes_and_half-life.svg/853px-Isotopes_and_half-life.svg.png"
-                                                  class="image"><img
-                                                  src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Isotopes_and_half-life.svg/853px-Isotopes_and_half-life.svg.png"
-                                                  alt="Nucleus Stability"></a>
-                                        </section>
-                                        <section>
-                                                <h2>Application Specific Data Processing</h2>
-                                                <ul>
-                                                  <li>Energy discretization </li>
-                                                  <ul>
-                                                    <li>multigroup</li>
-                                                    <li>pointwise</li>
-                                                    <li>piecewise linear continuous</li>
-                                                  </ul>
-                                                  <li>Angular quadratures</li>
-                                                  <li>Resonance integration</li>
-                                                  <li>...</li>
-                                                </ul>
-                                        </section>
-                                        <section>
-                                                <h2>Simulation Methods</h2>
-                                                <ul>
-                                                  <li>Monte Carlo Methods</li>
-                                                  <li>Deterministic Methods</li>
-                                                  <li>Hybrid Methods</li>
-                                                  <li>Other keywords...</li>
-                                                  <ul>
-                                                    <li>lattice codes</li>
-                                                    <li>ray tracing algorithms</li>
-                                                    <li>acceleration schemes</li>
-                                                    <li>adjoint methods</li>
-                                                    <li>...</li>
-                                                  </ul>
-                                                </ul>
-
-                                        </section>
-                                </section>
 				<section>
 					<section>
                                         <h2>Science</h2>
@@ -354,7 +287,8 @@
                                           (HDF), etc.</p>
                                           <p class="fragment" >
                                           <b style="color:blue">Management:</b> 
-                                          C/Python/Fortran APIs, SQL, MySQL, MongoDB, 
+                                          C/Python/Fortran APIs, HDF5, SQL, 
+                                          MySQL, sqlite, MongoDB, Hadoop,
                                           etc.</p>
                                         </section>
 
@@ -368,7 +302,8 @@
                                             nightly emails</li>
                                           <li class="fragment">
                                             <b style="color:green">Best:</b> 
-                                            remote version control</li>
+                                            remote version control (GitHub, 
+                                            BitBucket, Launchpad, GitLab)</li>
                                         </ul>
 
                                         <br/>
@@ -436,8 +371,8 @@
                                         <br/>
                                         <br/>
                                         <p class="fragment"><b style="color:blue">Hint:</b> 
-                                        Check out PyNE, a python toolkit for 
-                                        nuclear engineering analysis.</p>
+                                        Check out GitHub for existing toolkits 
+                                        for analysis in your domain.</p>
                                         </section>
 
 					<section>
@@ -480,7 +415,8 @@
                                         <br/>
                                         <p class="fragment">
                                         <b style="color:blue">Build System Tools:</b> 
-                                        make, autoconf, automake, cmake, etc.</p>
+                                        make, autoconf, automake, cmake, 
+                                        docker, etc.</p>
                                         </section>
 
 					<section>
@@ -506,6 +442,10 @@
                                         learn about maps, vectors, deques, 
                                         queues, etc. In python, the power lies 
                                         in dictionaries and numpy arrays.</p>
+                                        <p class="fragment"><b 
+                                                style="color:blue">Caveat:</b> 
+                                        Perhaps DataFrames.
+                                        </p>
 
                                         </section>
 
@@ -1053,14 +993,14 @@
 				<section>
 					<h1>THE END</h1>
                                         <h3>Katy Huff </h3>
-                                        <a href="https://katyhuff.github.io/2017-07-06-ornl">katyhuff.github.io/2017-07-06-ornl</a> 
+                                        <a href="https://katyhuff.github.io/2017-09-20-ncsa">katyhuff.github.io/2017-09-20-ncsa</a> 
 
 <br/>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img 
   alt="Creative Commons License" style="border-width:0" 
   src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span 
   xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Best Practices 
-  and Resources for Computational Nuclear Engineering</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://katyhuff.github.io" property="cc:attributionName" rel="cc:attributionURL">Kathryn Huff</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://katyhuff.github.io/2017-07-06-ornl" rel="dct:source">http://katyhuff.github.io/2017-07-06-ornl</a>.  
+  and Resources for Computational Nuclear Engineering</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://katyhuff.github.io" property="cc:attributionName" rel="cc:attributionURL">Kathryn Huff</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://katyhuff.github.io/2017-09-20-ncsa" rel="dct:source">http://katyhuff.github.io/2017-09-20-ncsa</a>.  
 				</section>
 
 			</div>
